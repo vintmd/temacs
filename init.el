@@ -29,8 +29,12 @@
     'load-path 
     (expand-file-name "lisp" user-emacs-directory))
 
+;; (add-to-list 'load-path "~/.emacs.d/org/lisp")
+
 
 (setq scheme-program-name "guile") 
+(setq org-startup-with-inline-images t)
+;; (setq org-reveal-note-key-char nil)
 ;; require plugins
 (require 'init-package)
 (require 'init-vim)

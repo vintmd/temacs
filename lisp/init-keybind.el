@@ -8,7 +8,9 @@
   "m"  'xref-pop-marker-stack
   "g"  'godef-jump
   "f"  'dumb-jump-go
-  "h"  'highlight-symbol-at-point)
+  "h"  'highlight-symbol-at-point
+  "c"  'hs-hide-block
+  "x"  'hs-show-block)
 
 
 
