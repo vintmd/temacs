@@ -57,8 +57,11 @@
 (require 'init-tags)
 (require 'init-pdf)
 (require 'init-vterm)
+(require 'init-java)
+(require 'init-meghanada)
 
-
+;; (require 'init-own)
+;; (require 'init-test)
 
 
 
@@ -75,7 +78,7 @@
     ("13d20048c12826c7ea636fbe513d6f24c0d43709a761052adbca052708798ce3" "e61752b5a3af12be08e99d076aedadd76052137560b7e684a8be2f8d2958edc3" "585942bb24cab2d4b2f74977ac3ba6ddbd888e3776b9d2f993c5704aa8bb4739" "a22f40b63f9bc0a69ebc8ba4fbc6b452a4e3f84b80590ba0a92b4ff599e53ad0" "26d49386a2036df7ccbe802a06a759031e4455f07bda559dcf221f53e8850e69" default)))
  '(package-selected-packages
    (quote
-    (moe-theme dumb-jump vterm golint exec-path-from-shell pdf-tools gxref ivy-xref company emamux yasnippet multi-term avy git-gutter window-numbering quelpa projectile magit lsp-mode gruvbox-theme go-mode flycheck evil-surround evil-matchit evil-leader counsel))))
+    (meghanada lsp-java moe-theme dumb-jump vterm golint exec-path-from-shell pdf-tools gxref ivy-xref company emamux yasnippet multi-term avy git-gutter window-numbering quelpa projectile magit lsp-mode gruvbox-theme go-mode flycheck evil-surround evil-matchit evil-leader counsel))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -10,7 +10,8 @@
   "f"  'dumb-jump-go
   "h"  'highlight-symbol-at-point
   "c"  'hs-hide-block
-  "x"  'hs-show-block)
+  "x"  'hs-show-block
+  "v" 'project-find-file)
 
 
 
